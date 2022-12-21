@@ -2,15 +2,16 @@
 body{
     transition: all .5s;
 }
+
 a{
-    color:aquamarine;
+    color:rgb(234, 242, 239);
     text-decoration: none;
     transition: all .5s;  
 }
 
 div:hover{
-    color: aqua;
-    font-size: 2rem;
+    color: rgb(229, 229, 229);
+    /* font-size: 2rem; */
     transition: all .5s;
 }
 
@@ -21,8 +22,8 @@ p:hover{
 }
 
 a:hover{
-    color:green;
-    font-size: 2rem;
+    color:rgba(0, 0, 0, 0.829);
+    font-size: 1.5rem;
 }
 
 /* a:visited{

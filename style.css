@@ -6,6 +6,10 @@ body {
     color: rgba(168, 100, 82, 1);
 }
 
+p{
+    padding: 10px;
+}
+
 .p{
     margin-top:10px;
     color: #eaeaea;
@@ -23,8 +27,8 @@ body {
 }
 
 .content{
-    /* padding: 5px 10px 10px 10px;
-    width:100%; */
+    padding: 5px 10px 10px 10px;
+    width:100%;
 }
 
 .cont1{

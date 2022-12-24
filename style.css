@@ -1,13 +1,16 @@
 
 body {
-    background: #16222A;  /* fallback for old browsers */
-    color:white;    
+    background: #16222A;  
+    
+    /* background-color: rgb(205, 163, 152); */
+    color: rgba(168, 100, 82, 1);
 }
 
 .p{
     margin-top:10px;
     color: #eaeaea;
     background-color: #2337444c;
+    /* background-color:  rgba(168, 100, 82, 1);; */
     border-radius: 12px;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
 }

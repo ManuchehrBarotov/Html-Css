@@ -13,8 +13,10 @@
     <link rel="stylesheet" href="cards.css" />
     <link rel="stylesheet" href="linksFor.css">
     <link rel="stylesheet" href="tables_styles.css">
+    <link rel="stylesheet" href="display.css">
+    <link rel="stylesheet" href="media_for_index.css">
   </head>
-  <body class="container">
+  <body class="container contain">
 
     <div class="p content  font1 di" >
    
@@ -27,6 +29,7 @@
               alt="Barotov Manuchehr"
               width="200"
             />
+            <h2>Manuchehr Barotov</h2>
           </div>
 
       
@@ -61,7 +64,7 @@
 </div>
 
 
-    <div >
+    <div class="contain">
       <div class="p content di" >
         <h2>Мои хобби</h2>
 
@@ -114,21 +117,23 @@
       </div>
     </div>
 
-    <div class="p content di"> 
-    <h2 class="border3">Связаться со мной</h2>
+    <div class="p content  di form"> 
+    <h2 >Связаться со мной</h2>
 
     <form action="/">
-      <div>
+      <div class="form-row">
+      <div class="form-group">
         <label for="name">Ваше имя:</label>
         <input type="text" id="name" placeholder="Введите имя" />
       </div>
 
-      <div>
+      <div class="form-group">
         <label for="email">Ваш email:</label>
         <input type="email" id="email" placeholder="Введите email" />
       </div>
+    </div>
 
-      <div>
+      <div class="form-group">
         <label for="message">Ваше сообщение:</label>
         <br />
         <textarea
@@ -139,7 +144,7 @@
         ></textarea>
       </div>
 
-      <input class="btn" type="submit" value="Send!" />
+      <input class="btn" id="send" type="submit" value="Send!" />
     </form>
 
   </div>

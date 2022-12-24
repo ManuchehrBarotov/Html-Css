@@ -1,6 +1,7 @@
 .table{
     margin:10px;
-    padding:10px;
+    padding-left:10px;
+    font-size: small;
 }
 
 .table  td:hover{
@@ -35,4 +36,8 @@
     box-shadow: 4px 4px 14px rgba(5, 145, 246, 20);
     transition:all 1s;
     
+}
+
+.border2 td{
+    padding: 10px;
 }

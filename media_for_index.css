@@ -56,3 +56,31 @@
         width: 100%;
     }
 }
+
+@media(max-width:650px){
+
+   
+    .border2 td{
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .table thead{
+        font-size: 0.6rem;
+        border-bottom: 1px solid white;
+    }
+}
+
+
+@media(max-width:650px){
+    .tbody tr{
+        margin  :auto;
+        font-size: 0.6rem;
+    }
+
+    
+}
+
+
